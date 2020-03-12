@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
   <meta name="description" content="ASP.NET MVC 2 CRUD Video">
   <meta name="keywords" content="ASP.NET,MVC,FACPYA">
-  <meta name="author" content="Joaquin Flores">
+  <meta name="author" content="Juan Angel Pedraza">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </meta>
    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />

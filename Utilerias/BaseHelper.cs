@@ -31,14 +31,14 @@ namespace MVCLaboratorio.Utilerias
                 }
 
                 filas = comando.ExecuteNonQuery();
-            } //try
+            }
             catch (Exception) { throw; }
             finally
             {
                 con.Close();
-            } //finally	
+            }
             return filas;
-        } // funcion ejecutar sentencia  
+        }
 
         public static DataTable ejecutarConsulta(String sentencia,
                              CommandType tipo,
@@ -62,13 +62,13 @@ namespace MVCLaboratorio.Utilerias
                 }
 
                 adaptador.Fill(datos);
-            } //try
+            }
             catch (Exception) { throw; }
             finally
             {
                 con.Close();
-            } //finally	
+            }
             return datos;
-        } //ejecutarSentencia
-    } //clase basehelper
+        }
+    }
 }

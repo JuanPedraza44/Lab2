@@ -4,25 +4,25 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
-  <meta charset="UTF-8">
+    <title>Delete</title>
+    <meta charset="UTF-8">
   <meta name="description" content="ASP.NET MVC 2 CRUD Video">
   <meta name="keywords" content="ASP.NET,MVC,FACPYA">
   <meta name="author" content="Joaquin Flores">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </meta>
 </head>
 <body>
-    <h1>Opciones</h1>
-    <a href="/Video/Create">Agregar Video</a>
-    <br />
-    <br />
-    <a href="/Video/Edit">Modificar Video</a>
-    <br />
-    <br />  
-    <a href="/Video/Delete">Eliminar Video</a>
-    <br />
-    <br />  
-    <a href="/Video/Search">Buscar Video</a>
+    <h1>Eliminar Video</h1>
+
+
+     <form action="/Video/Delete" method="post">
+    <fieldset>
+    <legend>Datos</legend>
+    <label for="idVideo">Id Video</label>
+        <input type="text" name="idVideo" />
+        <br />
+        <input type="submit" name="eliminarVideo" value="Eliminar video " />
+      </fieldset>
+      </form>
 </body>
 </html>

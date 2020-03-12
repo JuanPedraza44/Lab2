@@ -27,14 +27,14 @@
     display: none;
 }
 
-
 fieldset label
 {
-    display: block;
+    display:block;
+    
 }
 
 fieldset input
 {
-    display: block;
-    margin-bottom : 5px;
+    display:block;
+    margin bottom : 5pxs;
 }
